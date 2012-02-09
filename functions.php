@@ -8,7 +8,12 @@
  * @version 0.1 
  */
 
-define('BOLTGUN_HEADER_SUBTITLE', 'Theme and plugins for Anarchy Online websites');
+define('GEN_GREEN_HEADER_SUBTITLE', 'Theme and plugins for Anarchy Online websites');
 
+// Set to false if you do not wish to include the HTML5 compatibility script
+define('GEN_GREEN_HTML5_SHIV', TRUE);
+
+// If set to false, the 3 column in the footer will be omited
+define('GEN_GREEN_FOOTER_FULL', FALSE);
 
 ?>

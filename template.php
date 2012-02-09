@@ -16,9 +16,12 @@ if (!defined('IN_GS')) { die('you cannot load this page directly.'); }
 		<?php get_header(); ?>
 		<meta name="robots" content="index, follow">
 		<link href="<?php get_theme_url(); ?>/style.css" rel="stylesheet" type="text/css">
+		
+		<?php if(GEN_GREEN_HTML5_SHIV) : ?>
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<?php endif; ?>
 	</head>
 
 	<body id="<?php get_page_slug(); ?>">
@@ -34,7 +37,9 @@ if (!defined('IN_GS')) { die('you cannot load this page directly.'); }
 					<h1>
 						<a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a>
 					</h1>
-					<h2><?php echo BOLTGUN_HEADER_SUBTITLE; ?></h2>
+					<?php if(GEN_GREEN_HEADER_SUBTITLE !== '') :
+						echo '<h2>'.GEN_GREEN_HEADER_SUBTITLE.'</h2>';
+					endif; ?>
 				</heading>
 
 				<div id="search_box">
@@ -57,7 +62,7 @@ if (!defined('IN_GS')) { die('you cannot load this page directly.'); }
 
 			<?php
 			// Hidden till more content is made
-			if (FALSE) : ?>
+			if(GEN_GREEN_FOOTER_FULL) : ?>
 			<footer>
 
 				<div class="footer_box m_right">
