@@ -1,4 +1,13 @@
-<?php if (!defined('IN_GS')) {die('you cannot load this page directly.');} ?>
+<?php 
+/**
+ * sidebar.inc.php The side bar.
+ * 
+ * @desc A theme for the GetSimple 3.0 CMS based on the theme General from http://www.templatemo.com
+ * @package General Green
+ * @author Guillaume Olivetti
+ * @version 0.1 
+ */
+if (!defined('IN_GS')) {die('you cannot load this page directly.');} ?>
 <aside>
 
 	<div class="side_column_box">

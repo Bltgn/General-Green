@@ -1,6 +1,6 @@
 <?php
 /**
- * header.inc.php The main theme file
+ * template.php The main theme file
  * 
  * @desc A theme for the GetSimple 3.0 CMS based on the theme General from http://www.templatemo.com
  * @package General Green

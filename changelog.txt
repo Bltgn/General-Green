@@ -1,0 +1,7 @@
+General Green
+http://boltgun.the-kindred.info
+
+0.1
+- Main theme file
+- Sidebar included
+- Options added in functions.php
