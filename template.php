@@ -33,28 +33,22 @@ if (!defined('IN_GS')) { die('you cannot load this page directly.'); }
 			</nav>
 
 			<header>
-				<heading>
-					<h1>
-						<a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a>
-					</h1>
+				<h1><a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a></h1>
 					<?php if(GEN_GREEN_HEADER_SUBTITLE !== '') :
 						echo '<h2>'.GEN_GREEN_HEADER_SUBTITLE.'</h2>';
 					endif; ?>
-				</heading>
 
 				<div id="search_box">
 				</div>
 			</header>
 
 			<div class="main_content">    
-				<div id="main_column">
+				<section>
 					<article>
-						<heading>
-							<h2><?php get_page_title(); ?></h2>
-						</heading>
-				<?php get_page_content(); ?>
+						<h2><?php get_page_title(); ?></h2>
+						<?php get_page_content(); ?>
 					</article>
-				</div>
+				</section>
 
 			<?php include('sidebar.inc.php'); ?>
 
