@@ -6,8 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5em;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 12px;
+	font-family: sans-serif, verdana, arial;
+	font-size: 14px;
 	color: #FFFFFF;
 	background: url(images/dark_geometric.png) #555753;
 }
@@ -104,6 +104,7 @@ h4 {
 	width: 960px;
 	margin: 0 auto;
 	background: #302f2b;
+	box-shadow: 0px 0px 10px 3px rgb(0, 0, 20);
 }
 
 /* menu */
@@ -359,3 +360,19 @@ footer h4 {
 	text-align: center;
 }
 /* end of footer */
+/*news*/
+.nm_post {
+	margin-bottom:0.8em;
+	border-bottom:1px dotted #fff;
+}
+.nm_post_date {
+	font-style: italic;
+	font-size:0.8em;
+}
+.nm_post_meta {
+	font-size:0.8em;
+}
+.nm_post h3:before {
+	content:"❱";
+	color:#fff;
+}
