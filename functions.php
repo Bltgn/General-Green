@@ -8,7 +8,7 @@
  * @version 0.1 
  */
 
-define('GEN_GREEN_HEADER_SUBTITLE', 'Theme and plugins for Anarchy Online websites');
+define('GEN_GREEN_HEADER_SUBTITLE', '');
 
 // Set to false if you do not wish to include the HTML5 compatibility script
 define('GEN_GREEN_HTML5_SHIV', TRUE);
