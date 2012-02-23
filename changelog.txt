@@ -1,7 +1,12 @@
-General Green
+== General Green ==
+An HTML5 theme for the GetSimple CMS.
+Based on the theme General from Templatemo.
+
 http://boltgun.the-kindred.info
 
 0.1
 - Main theme file
 - Sidebar included
 - Options added in functions.php
+- CSS rules for news manager is included
+- First readme draft
